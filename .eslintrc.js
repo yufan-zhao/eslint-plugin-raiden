@@ -16,4 +16,12 @@ module.exports = {
       env: { mocha: true },
     },
   ],
+  rules:
+  {
+    "indent": [
+      1,
+      "tab",
+      {"SwitchCase": 1}
+    ]
+  }
 };

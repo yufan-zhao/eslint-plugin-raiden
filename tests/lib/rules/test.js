@@ -24,7 +24,7 @@ ruleTester.run("test", rule, {
 
   invalid: [
     {
-      code: "testFunc(a,b)",
+      code: "This is Code",
       errors: [{ message: "Fill me in.", type: "Me too" }],
     },
   ],
